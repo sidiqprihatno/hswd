@@ -24,7 +24,8 @@ Kenapa Figma?
 
 Download aplikasinya disini:
 
-?> 	- Mac: https://www.figma.com/download/desktop/mac/  
+?>
+	- Mac: https://www.figma.com/download/desktop/mac/  
 	- Windows: https://www.figma.com/download/desktop/win/  
 	- Linux: https://www.figma.com/ (Web Version)
 
