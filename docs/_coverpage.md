@@ -1,5 +1,5 @@
 <!-- logo -->
-![logo](_media/logo.svg)
+![logo](_assets/logo.svg)
 
 > Bismillah,
 
