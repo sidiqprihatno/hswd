@@ -1,0 +1,2 @@
+- **Welcome!**
+	- [Day 1 - Getting Started](/day1.md "Day 1 - Getting Started")
