@@ -44,6 +44,9 @@ Semua elemen desain yang kita buat akan ditampilkan dalam bentuk layer.
 
 - Zoom in/out dengan tekan `Ctrl + Mouse scroll` depan belakang
 - Geser editor dengan tekan `Space + Klik kiri` drag ke arah yang diinginkan
+- Group selection `Ctrl + G`
+- Ungroup selection `Ctrl + Shift + G`
+- Lock/unlock element `Ctrl + Shift + L`
 - Hide semua UI editor dengan tekan `Ctrl + \`
 - Memindahkan elemen desain setiap 10 pixel `Shift + Arrow`
 - Duplicate desain dengan `Ctrl + D`
@@ -203,5 +206,131 @@ Untuk membuat button dengan size yang dinamis, kita akan membuatnya menggunakan 
 
 	![](/_day1/button_text.gif)
 
+> Karena button ini akan dipakai kembali, kita perlu mengubah namanya menjadi button.  
+Klik pada *Frame* button, selanjutnya pada panel Layers, ubah namanya menjadi **button**.
+
+![](/_day1/rename_frame_button.gif)
 
 
+
+
+
+### 5). Memposisikan menu navigasi
+
+Sebelum kita pindahkan, kita perlu *Group* navigasinya agar pemindahannya lebih mudah.
+
+> Agar gambar preview tidak ikut terseleksi, lock layernya dengan menekan `Ctrl + Shift + L` pada keyboard.
+
+![](/_day1/lock_image.gif)
+
+Setelah layer gambar locked, kita bisa leluasa menseleksi semua elemen navigasi kemudian tekan `Ctrl + G` untuk men-group-nya.
+
+Kemudian drag group navigasinya ke samping kanan logo yang sudah kita tempatkan sebelumnya.
+
+![](/_day1/move_navigation.gif)
+
+
+### 6). Membuat konten
+
+Konten yang dimaksud adalah:
+
+?>
+	- Title  
+	- Description  
+	- Button
+
+#### a. Membuat title
+Tekan tombol `T` pada keyboard untuk mengaktifkan *Text*. Selanjutnya sesuaikan title dengan gambar preview:
+
+- Font-size = **56**
+- Font-weight = **Bold**
+- Alignment = **Left**
+- Fill = **#FFFFFF** (Putih)
+
+![](/_day1/title_spec.png)
+
+#### b. Membuat description
+Drag duplicate pada title yang sudah dibuat, sesuaikan text properties-nya seperti ini:
+
+- Font-size = **20**
+- Line-height = **32**
+- Font-weight = **Regular**
+- Alignment = **Left**
+- Fill = **#FFFFFF** (Putih)
+- Opacity = **80%**
+- Sesuaikan lebar teks dengan lebar title
+
+![](/_day1/description_spec.gif)
+
+#### c. Copy button dari menu navigasi
+
+- Double click pada menu navigasi sampai frame button terseleksi, kemudian tekan `Ctrl + C` untuk men-copy.
+- Click diluar area menu navigasi, pastikan menu navigasi tidak dalam kondisi terseleksi. Tekan `Ctrl + V` untuk mem-paste.  
+Kenapa harus seperti ini? Agar button tidak di paste didalam group menu navigasi.
+- Pindahkan button hasil copy, dan posisikan dibawah konten description.
+
+![](/_day1/copy_button.gif)
+
+#### d. Styling button
+
+Sesuaikan button text dengan gambar preview. Gunakan teknik duplicate drag untuk membuat 2 buttons.
+
+![](/_day1/duplicate_button.png)
+
+##### d1. Membuat background linear gradient
+
+- Ubah fill dari *Solid* menjadi *Linear*
+- Sesuaikan 2 warna seperti yang di gambar preview
+- Atur angle dengan menggeser **2 ujung node** ke bawah kanan dan ke atas kiri
+- Hide stroke
+	
+![](/_day1/styling_button.gif)
+
+##### d2. Styling button drop shadow
+
+- Scroll down pada panel sebelah kanan, sampai pada bagian *Effects*
+- Atur Drop Shadow dengan Blur = **30**, X = **0**, dan Y = **0**
+- Ambil warna shadow dari tema warna di bahan desain
+
+![](/_day1/shadow_button.gif)
+
+### 7). Memposisikan konten
+
+- Group konten dengan menyeleksi semua elemen konten dan tekan `Ctrl + G`
+- Sambil tekan `Shift`, klik logo AwesomeApp
+- Align konten ke logo dengan tekan `Alt + A` (Align to left)
+- Lepaskan seleksi antara logo dan konten dengan klik di luar area keduanya, sampai kotak seleksi hilang
+- Klik kembali konten, atur menjadi vertical center dengan tekan `Alt + V` 
+
+![](/_day1/positioning_content.gif)
+
+### 8). Memposisikan maskot
+
+- Geser maskot ke dalam *Frame* utama, sesuaikan ukurannya agar tidak terlalu besar
+- Seimbangkan jarak maskot antara menu navigasi dan konten
+
+![](/_day1/positioning_mascot.gif)
+
+### 9). Memposisikan gambar utama
+
+- Geser gambar ke dalam *Frame* utama
+- Area gambar yang berada diluar area *Frame* akan ter masking secara otomatis
+- Sesuaikan ukurannya secara proporsional dan juga seimbangkan jarak atas dan bawah
+
+![](/_day1/main_image_placement.gif)
+
+### 10). Hasil akhir
+
+Gambar preview
+
+![Awesome App Landingpage](./_day1/landingpage.jpg)
+
+Hasil export dari Figma
+
+![](/_day1/main_section.png)
+
+?> **Kenapa hasil akhir tidak sama dengan preview?**  
+> Hasil akhir tidak sama dengan preview, karena kita menggunakan komposisi layout grid dengan lebar 1170 px.
+InsyaAllah akan kita pelajari alasannya pada pertemuan mendatang.
+
+!> Jika ada yang perlu ditanyakan silahkan ditanyakan di grup WhatsApp. Terima kasih
