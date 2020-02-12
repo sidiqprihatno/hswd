@@ -6,7 +6,7 @@
 > Selamat datang di **Bootcamp!**
 
 InsyaAllah, semua materi akan disampaikan secara berkala disini.  
-Untuk memulai, klik Getting Started:
+Untuk memulai, klik Get Started.
 
 [Get Started](/day1.md)
 
