@@ -6,7 +6,7 @@ Tujuan utama dari High Selling Web Design Bootcamp adalah untuk membentuk sinerg
 
 Kunci sinergi antara Web Designer dan Web Developer adalah kesesuaian antara spesifikasi desain dan implementasinya pada sebuah halaman website.
 
-Di pertemuan pertama ini, kita akan memulai dengan bagaimana proses desain sebuah website untuk memahami dengan baik spesifikasi desainnya.
+Di pertemuan pertama ini, kita akan memulai dengan bagaimana proses desain sebuah website agar dapat memahami dengan baik spesifikasi desainnya.
 
 ## A. Apa saja yang perlu dipersiapkan?
 
