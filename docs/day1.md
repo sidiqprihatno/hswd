@@ -1,3 +1,5 @@
+![](./_assets/day1.jpg)
+
 # Day 1 - Getting Started
 
 Bismillah.
