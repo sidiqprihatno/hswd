@@ -27,41 +27,24 @@
       maxLevel: 4,
       subMaxLevel: 4,
       search: 'auto', // default
-      search : [
-        '/',            // => /README.md
-        '/day1',       // => /guide.md
-      ],
+      
       // complete configuration parameters
       search: {
         maxAge: 86400000, // Expiration time, the default one day
-        paths: [], // or 'auto'
+        paths: 'auto', // or 'auto'
         placeholder: 'Type to search',
 
-        // Localization
-        placeholder: {
-          '/': 'Type to search'
-        },
-
         noData: 'No Results!',
-
-        // Localization
-        noData: {
-          '/': 'No Results'
-        },
 
         // Headline depth, 1 - 6
         depth: 2,
 
         hideOtherSidebarContent: false, // whether or not to hide other sidebar content
-
-        // To avoid search index collision
-        // between multiple websites under the same domain
-        namespace: 'website-1',
       }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
 </body>
 </html>
