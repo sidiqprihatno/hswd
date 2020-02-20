@@ -1,5 +1,5 @@
 <!-- logo -->
-![logo](_assets/logo.svg ':size=200')
+![logo](./_assets/logo.svg ':size=200')
 
 By: Sidiq Prihatno
 
@@ -15,7 +15,7 @@ InsyaAllah, semua materi akan disampaikan secara berkala disini.
 Untuk memulai, klik Get Started.
 
 
-[Get Started](/day1.md)
+[Get Started](day1.md)
 
 
 

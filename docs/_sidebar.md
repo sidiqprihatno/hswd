@@ -1,2 +1,3 @@
 - **Welcome!**
-	- [Day 1 - Getting Started](/day1.md "Day 1 - Getting Started")
+	- [Day 1 - Getting Started](day1.md "Day 1 - Getting Started")
+	- [Day 2 - Create Landing Page](day2.md "Day 2 - Create Landing Page")
