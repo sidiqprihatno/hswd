@@ -16,7 +16,7 @@
 ### 3). Hide unused component
 ## D. Mengubah Desain Desktop ke Mobile
 ### 1). Membuat frame khusus  tablet dan mobile
-### 2). Mengubah *Row direction* menjadi vertical
+### 2). Mengubah *Row direction* menjadi *vertical*
 ### 3). Menyesuaikan spacing
 ### 4). Menyesuaikan image-size
 ### 5). Menyesuaikan font-size
