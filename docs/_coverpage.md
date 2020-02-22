@@ -12,10 +12,11 @@ By: Sidiq Prihatno
 ### Selamat datang di **Bootcamp!**
 
 InsyaAllah, semua materi akan disampaikan secara berkala disini.  
-Untuk memulai, klik Get Started.
+<!-- Untuk memulai, klik **Get Started**. -->
+Untuk melanjutkan, klik **Continue**.
 
 
-[Continue](day2.md)
+[Continue](day3.md)
 
 
 
