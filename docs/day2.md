@@ -263,7 +263,7 @@ Melanjutkan praktik latihan pada pertemuan pertama, kita akan melengkapi bagian-
 
 Berikut adalah desain landing page yang akan kita buat:
 
-![Awesome App Full](./_day2/awesome_app_full.png)
+[Buka gambar](_day2/awesome_app_full.png)
 
 ### 1). Download bahan desain
 
